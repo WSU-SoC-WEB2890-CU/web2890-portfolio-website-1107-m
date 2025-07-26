@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="TODO: Project 2 ...">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/main.scss">
+</head>
+
+<body>
+  <header>
+    <!-- Your HTML goes here -->
+    <nav class="navbar navbar-expand-lg brown-background julius-sans-one p-0">
+      <div class="container">
+        <a class="navbar-brand mt-0" href="index.html"><img src="images/Mizuho_logo_horizontal.svg" alt="Mizuho Logo" height="30"></a>
+        <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link red-font" href="index.html">HOME</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link red-font d-flex align-items-center" href="gallery.html" id="galleryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                GALLERY
+                <img src="images/icons8-down arrow-24.png" alt="down arrow" height="15" class="ms-1">
+              </a>
+              <ul class="dropdown-menu brown-background border border-0" aria-labelledby="galleryDropdown">
+                <li><a class="dropdown-item" href="gallery1.html">WEB2620 Practice</a></li>
+                <li><a class="dropdown-item" href="gallery2.html">The TOE Website Redesign</a></li>
+                <li><a class="dropdown-item" href="gallery3.html">Japanese Tutor Flyer</a></li>
+                <li><a class="dropdown-item" href="gallery4.html">Japanese Counter Panphlet</a></li>
+                <li><a class="dropdown-item" href="gallery5.html">Airi Saito Website</a></li>
+                <li><a class="dropdown-item" href="gallery6.html">WEB2890 Review Assignment</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link red-font" href="casestudy.html">CASE STUDY</a></li>
+            <li class="nav-item"><a class="nav-link red-font" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link red-font" href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container-fluid p-0">
+      <!-- Mobile / Tablet Layout -->
+      <div class="position-relative gray-background overflow-hidden" style="height: 300px">
+        <img src="images/Mizuho_headshot.png" alt="Mizuho" class="position-absolute top-50 start-50 translate-middle  text-center z-0" style="height: 250px;">
+        <div class="text-white text-center d-flex justify-content-center align-items-center h-100">
+            <h1 class="display-5 julius-sans-one z-1" style="font-size: 5em;">MIZUHO KOYANAGI</h1>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <section class="text-center w-75 mx-auto mt-4">
+    <h2 class="julius-sans-one">About Me</h2>
+    <h4 class="julius-sans-one">BIO</h4>
+    <p class="adamina">I’m Mizuho Koyanagi. I’m a university student majoring in Web & User Experience, with a minor in Localization. I enjoy making websites that are easy to use and friendly for people from different cultures. I study front-end development, UX/UI design, and how translation helps users around the world. I have worked on school and personal projects like responsive websites and multilingual designs. Right now, I’m building my portfolio using tools like Bootstrap, Sass, and Vite. I’m interested in working on projects that connect design, technology, and languages.</p>
+  </section>
+
+  <section class="text-center mt-4 lightgray-background">
+    <h2 class="julius-sans-one pt-4">My Service</h2>
+    <div class="row mx-2">
+        <div class="col-12 col-md-4">
+            <img src="images/Translate.png" alt="Translate" height="200px">
+            <p class="adamina text-white">I'm native Japanese speaker, and going the university in the U.S. Also, I'm learning about Localization. This is my favorite things to do.</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="images/Coding.png" alt="Coding" height="200px">
+            <p class="adamina text-white">This is what I'm learning hardly in my university. I grew a lot compared to before I started learning in the university, and I'm still growing.</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="images/Palette.png" alt="Palette" height="200px">
+            <p class="adamina text-white">I learned about Photoshop, Lightroom, Premiere Pro and Illustrator in each classes. Also, I used to use Adobe Express to make Presentation or flyer.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="text-center mt-4 mb-4 mx-2">
+    <h2 class="julius-sans-one">Other Experiences</h2>
+    <div class="row">
+        <div class="col-12 col-md-6 my-2">
+            <div class="card h-100 x-lightgray-background border border-0" style="max-width: 100%;">
+                <div class="d-flex flex-row align-items-center">
+                    <img src="images/ballet.jpg" class="img-fluid w-25 h-100 rounded" alt="ballet">
+                    <div class="card-body text-center text-md-start">
+                        <h5 class="card-title julius-sans-one">Ballet</h5>
+                        <p class="card-text adamina w-75 mx-auto">I started Ballet when I was 6 years old. I'm still doing Ballet now. I love Ballet so much.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 my-2">
+            <div class="card h-100 x-lightgray-background border border-0" style="max-width: 100%;">
+                <div class="d-flex flex-row align-items-center">
+                    <img src="images/japan university.jpg" class="img-fluid w-25 h-100 rounded" alt="Japan University">
+                    <div class="card-body text-center text-md-start">
+                        <h5 class="card-title julius-sans-one">Japanese University</h5>
+                        <p class="card-text adamina w-75 mx-auto">Before I go to the US university, I was in Japanese university, majoring in liberal arts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="brown-background">
+    <div class="container pt-4">
+      <div class="row align-items-start pb-4 ps-0">
+        <div class="col col-md-2 col-lg-2 text-center"><img src="images/Mizuho_logo_vertical.svg" alt="Logo" height="100px"></div>
+        <div class="col-2 col-lg-2 col-md-3"></div>
+        <div class="col-md-3 col-lg-2 d-none d-md-flex">
+          <ul class="julius-sans-one p-0 list-unstyled">
+            <li class="nav-item"><a class="nav-link red-font" href="index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link red-font" href="gallery.html">GALLERY</a></li>
+            <li class="nav-item"><a class="nav-link red-font" href="casestudy.html">CASE STUDY</a></li>
+            <li class="nav-item"><a class="nav-link red-font" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link red-font" href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 p-0 d-none d-lg-flex flex-column">
+            <a href="gallery.html" class="julius-sans-one red-font text-decoration-none mb-2">Gallery</a>
+            <ul class="adamina gray-font list-unstyled">
+            <li><a class="nav-item gray-font text-decoration-none" href="gallery1.html"><small>WEB2620 Practice</small></a></li>
+            <li><a class="nav-item gray-font text-decoration-none" href="gallery2.html"><small>The TOE Website Redesign</small></a></li>
+            <li><a class="nav-item gray-font text-decoration-none" href="gallery3.html"><small>Japanese Tutor Flyer</small></a></li>
+            <li><a class="nav-item gray-font text-decoration-none" href="gallery4.html"><small>Japanese Counter Panphlet</small></a></li>
+            <li><a class="nav-item gray-font text-decoration-none" href="gallery5.html"><small>Airi Saito Website</small></a></li>
+            <li><a class="nav-item gray-font text-decoration-none" href="gallery6.html"><small>WEB2890 Review Assignment</small></a></li>
+          </ul>
+        </div>
+        <div class="col col-md-4 col-lg-3 adamina gray-font p-0">
+          <p class="julius-sans-one red-font">Contact</p>
+          <ul class="list-unstyled">
+            <li class="footer-list mb-2"><a href="tel:+13853703067" class="gray-font adamina" style="text-decoration: none;"><small>+1(385)370-3067</small></a></li>
+            <li class="footer-list mb-2"><a href="mailto:omt@ogden.mt.com" class="gray-font adamina" style="text-decoration: none;"><small>mizuhokoyanagi@mail.weber.edu</small></a></li>
+            <li><a href="https://www.instagram.com/ogdenmusicaltheatre/" class="gray-font adamina text-decoration-none"><small>Instagram: </small><img width="30" height="30" src="images/icons8-instagram-50.png" alt="instagram" class="me-3"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row text-center">
+        <small class="gray-font cinzel">© 2025 Mizuho Koyanagi. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+</html>

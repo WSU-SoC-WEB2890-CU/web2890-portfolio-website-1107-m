@@ -1,3 +1,203 @@
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+@mixin transitionProperty {
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.julius-sans-one {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.adamina {
+  font-family: "Adamina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+$red: #7d0209;
+$brown: #e2dbd1;
+$gray: #6e6e6e;
+
+.red-button {
+    background-color: $red;
+    border-radius: 0;
+}
+
+.red-font {
+    color: $red;
+}
+
+.gray-font {
+    color: $gray;
+}
+
+.gray-background {
+    background-color: $gray;
+}
+
+.lightgray-background {
+    background-color: rgba($gray, 0.6);
+}
+
+.x-lightgray-background {
+    background-color: #9d9d9d;
+}
+
+.brown-background {
+    background-color: $brown;
+}
+
+.brown-font {
+    color: $brown;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background-img {
+    background-image: url("../images/Mizuho_headshot.png");
+
+}
+
+.mizuho {
+    font-size: 126px;
+}
+
+.mobile-mizuho {
+    font-size: 84px;
+
+    @media (min-width: 768px) {
+        font-size: 108px;
+    }
+}
+
+.font-small {
+    font-size: 13px;
+}
+
+.performance-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .performance-info {
+        background-color: rgba($red, 0.75);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+
+        .caption {
+            text-align: center;
+            color: $white;
+            @include absoluteCenter;
+
+            h4 {
+                text-transform: uppercase;
+                display: block;
+            }
+        }
+    }
+
+    &:hover {
+
+        img {
+            transform: scale(1.5);
+            @include transitionProperty;
+        }
+
+        .performance-info {
+            opacity: 1;
+            visibility: visible;
+            @include transitionProperty;
+        }
+    }
+}
+
+.brown {
+    background-color: rgba($brown, 0.85) !important;
+}
+
+.container-scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.carousel-wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+
+.carousel-card {
+    flex: 0 0 60%;
+    opacity: 0.5;
+    transform: scale(0.8);
+    transition: transform 0.5s, opacity 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+
+    &.active {
+        opacity: 1;
+        transform: scale(1);
+        z-index: 2;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+.carousel-button {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    font-size: 4rem;
+    background: none;
+    color: $red;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.carousel-button.prev {
+    left: 0;
+}
+
+.carousel-button.next {
+    right: 0;
+}
