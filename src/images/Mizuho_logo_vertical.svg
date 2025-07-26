@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 17.59 26.09">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        letter-spacing: .04em;
+      }
+
+      .st0, .st1, .st2 {
+        fill: #231f20;
+        font-family: SegoeUI-Light, 'Segoe UI';
+        font-size: 12px;
+        font-weight: 300;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        isolation: isolate;
+      }
+
+      .st1 {
+        letter-spacing: .12em;
+      }
+
+      .st2 {
+        letter-spacing: -.04em;
+      }
+    </style>
+  </defs>
+  <g class="st3">
+    <text class="st1" transform="translate(0 8.92)"><tspan x="0" y="0">Mi</tspan></text>
+  </g>
+  <g class="st3">
+    <text class="st0" transform="translate(1.41 17.14)"><tspan x="0" y="0">ZU</tspan></text>
+  </g>
+  <g class="st3">
+    <text class="st2" transform="translate(.65 25.49)"><tspan x="0" y="0">HO</tspan></text>
+  </g>
+</svg>

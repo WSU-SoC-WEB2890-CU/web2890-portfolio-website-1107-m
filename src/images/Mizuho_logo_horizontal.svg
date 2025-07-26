@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 37.33 11.19">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st2, .st4 {
+        fill: #231f20;
+        font-family: SegoeUI-Light, 'Segoe UI';
+        font-size: 12px;
+        font-weight: 300;
+      }
+
+      .st1 {
+        letter-spacing: -.1em;
+      }
+
+      .st2 {
+        letter-spacing: -.14em;
+      }
+
+      .st5 {
+        letter-spacing: -.18em;
+      }
+
+      .st4 {
+        letter-spacing: -.11em;
+      }
+
+      .st6 {
+        letter-spacing: -.16em;
+      }
+    </style>
+  </defs>
+  <g class="st3">
+    <text class="st2" transform="translate(0 9.82)"><tspan x="0" y="0">M</tspan></text>
+    <text class="st1" transform="translate(8.75 9.82)"><tspan x="0" y="0">i</tspan></text>
+    <text class="st4" transform="translate(10.19 9.82)"><tspan x="0" y="0">Z</tspan></text>
+    <text class="st0" transform="translate(15.67 9.82)"><tspan class="st6" x="0" y="0">U</tspan><tspan class="st5" x="5.86" y="0">H</tspan></text>
+    <text class="st2" transform="translate(28.16 9.82)"><tspan x="0" y="0">O</tspan></text>
+  </g>
+</svg>
