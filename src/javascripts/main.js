@@ -20,7 +20,7 @@ const images = [
 
     const visibleImages = [prevIndex, currentIndex, nextIndex];
 
-    visibleImages.forEach((index, i) => {
+    visibleImages.forEach(index => {
       const card = document.createElement('div');
       card.classList.add('carousel-card');
       if (index === currentIndex) {
