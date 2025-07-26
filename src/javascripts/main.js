@@ -2,11 +2,11 @@
 import "bootstrap"
 
 const images = [
-    'images/TOE1.png',
-    'images/TOE2.png',
-    'images/TOE3.png',
-    'images/TOE4.png',
-    'images/TOE5.png'
+    '../images/TOE1.png',
+    '../images/TOE2.png',
+    '../images/TOE3.png',
+    '../images/TOE4.png',
+    '../images/TOE5.png'
   ];
 
   let currentIndex = 0;
